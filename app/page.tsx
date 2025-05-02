@@ -98,7 +98,7 @@ export default function Home() {
           <div className="md:w-1/3 mb-8 md:mb-0 flex justify-center">
             <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <Image
-                src="https:https://photos.app.goo.gl/oXCHAdFhFBe9Jf6CH"
+                src="https://photos.google.com/share/AF1QipMvlqd8wq2msAvYxZQl2QlmUnrE1VVJuuY_MdJhP3hnfi1q7aMQbCdMFINBpLsnWw/photo/AF1QipOUZ9Tvt97N5GcwkjqBf0q7eIeNJeQlrWON71Fi?key=TGt0aXJqTS1OclhvY1dFNG9qWDNOLUJlUmJDdEJR"
                 alt="David Munyiri"
                 fill
                 className="object-cover"
