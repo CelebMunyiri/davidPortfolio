@@ -98,7 +98,7 @@ export default function Home() {
           <div className="md:w-1/3 mb-8 md:mb-0 flex justify-center">
             <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <Image
-                src="https:https://files.fm/f/73tu9g6h7b"
+                src="https:https://photos.app.goo.gl/oXCHAdFhFBe9Jf6CH"
                 alt="David Munyiri"
                 fill
                 className="object-cover"
