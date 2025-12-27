@@ -97,11 +97,12 @@ export default function Home() {
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="md:w-1/3 mb-8 md:mb-0 flex justify-center">
             <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-xl">
-              <Image
-                src="https://photos.google.com/share/AF1QipMvlqd8wq2msAvYxZQl2QlmUnrE1VVJuuY_MdJhP3hnfi1q7aMQbCdMFINBpLsnWw/photo/AF1QipOUZ9Tvt97N5GcwkjqBf0q7eIeNJeQlrWON71Fi?key=TGt0aXJqTS1OclhvY1dFNG9qWDNOLUJlUmJDdEJR"
+              <img
+                src="/david.jpg"
                 alt="David Munyiri"
-                fill
-                className="object-cover"
+                //width={256}
+                //height={256}
+               // className="object-cover"
               />
             </div>
           </div>
