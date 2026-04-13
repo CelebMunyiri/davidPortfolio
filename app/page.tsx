@@ -351,6 +351,21 @@ export default function Home() {
                   </svg>
                   C
                 </li>
+                <li className="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5 mr-2 text-green-500"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Java
+                </li>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
@@ -495,6 +510,21 @@ export default function Home() {
                     />
                   </svg>
                   Django
+                </li>
+                <li className="flex items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5 mr-2 text-green-500"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Springboot
                 </li>
               </ul>
             </div>
@@ -643,9 +673,39 @@ export default function Home() {
                   </div>
                   <div className="ml-12 md:ml-0 md:w-1/2 md:pr-8 md:text-right">
                     <div className="p-4 bg-white rounded-lg shadow-md">
+                      <h3 className="text-xl font-bold text-blue-600">Senior Backend Developer</h3>
+                      <h4 className="text-lg font-medium">Nathan Digital</h4>
+                      <p className="text-gray-500">September 2025 - Present</p>
+                      <p className="mt-2">
+                        Architecting and leading backend systems development using modern technologies including Java with Springboot, Express (NodeJS), and .NET. Implementing scalable APIs, designing database schemas, and mentoring junior developers. Performing comprehensive testing using Supertest, Jest, NUnit, and MSTest frameworks.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Experience 1.5 */}
+                <div className="relative flex flex-col md:flex-row items-center">
+                  <div className="flex items-center justify-center w-10 h-10 rounded-full bg-blue-600 text-white absolute left-0 md:left-1/2 transform -translate-x-1/2 z-10">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+                      />
+                    </svg>
+                  </div>
+                  <div className="ml-12 md:ml-0 md:w-1/2 md:pl-8">
+                    <div className="p-4 bg-white rounded-lg shadow-md">
                       <h3 className="text-xl font-bold text-blue-600">Backend Developer</h3>
                       <h4 className="text-lg font-medium">Nathan Digital</h4>
-                      <p className="text-gray-500">March 2024 - Present</p>
+                      <p className="text-gray-500">March 2024 - August 2025</p>
                       <p className="mt-2">
                         Designed and implemented APIs using Express (NodeJS) framework and .NET platform while
                         performing their tests using Supertest and Jest for NodeJS and NUnit and MSTest frameworks for
